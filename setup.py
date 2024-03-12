@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-name = 'template-python'
+name = 'rejectax'
 version = '0.0.1'
 
 with open('README.md' ,'r') as f:
@@ -17,6 +17,6 @@ setup(
     author_email='mattdmould@gmail.com',
     license='MIT',
     packages=find_packages(),
-    install_requires=[],
-    python_requires='>=3.9',
+    install_requires=['jax'],
+    python_requires='>=3.10',
     )
